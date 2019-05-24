@@ -1,0 +1,30 @@
+
+@mixin heading1 {
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+}
+
+@mixin heading2 {
+    font-family: 'Volkhov', serif;
+    font-size:40px;
+     color: black
+    
+
+}
+
+@mixin heading3 {
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+    font-family: 'Lalezar', cursive;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+@mixin heading3main {
+    font-size:20px;
+    font-family: 'Bungee', cursive;
+    color: black;
+    text-align: center;
+
+}

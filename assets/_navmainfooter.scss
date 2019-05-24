@@ -1,0 +1,41 @@
+@import "./mixin-variables/mixin";
+
+
+nav {
+    
+    h3{
+        @include heading3;
+    }
+
+    .tech{
+        background-color: rgb(238, 179, 15);
+    }
+    .edu{
+        background-color: rgb(122, 124, 236)
+    }
+    .work{
+        background-color: rgb(201, 231, 161)
+
+    }
+    .language{
+        background-color: rgb(202, 83, 166)
+
+    }
+  }
+   
+  aside {
+    padding: 20px;
+    background-color: rgb(192, 171, 182);
+  }
+  
+  footer {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: rgb(127, 129, 122);
+    color: white;
+  }
+
+   
+ 
