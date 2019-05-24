@@ -28,3 +28,23 @@
     text-align: center;
 
 }
+
+@mixin heading4{
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+
+@mixin paragraph{
+    font-size: 15px;
+    padding:10px 10px;
+    
+    background-color: rgb(214, 205, 205);
+}
+
+@mixin links{
+     
+    
+      
+}
