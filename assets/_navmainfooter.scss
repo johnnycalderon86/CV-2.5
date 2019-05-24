@@ -2,30 +2,45 @@
 
 
 nav {
-    
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+
     h3{
         @include heading3;
     }
 
     .tech{
-        background-color: rgb(238, 179, 15);
+        background-color: rgb(248, 247, 242);
+        margin-bottom: 40px;
+        padding-bottom:10px
+        
     }
     .edu{
-        background-color: rgb(122, 124, 236)
+        background-color: rgb(50, 50, 51);
+        color: white;
+        margin-bottom: 40px;
+        padding-bottom:10px
     }
     .work{
-        background-color: rgb(201, 231, 161)
+      background-color: rgb(248, 247, 242);
+      margin-bottom: 40px;
+        padding-bottom:10px
 
     }
     .language{
-        background-color: rgb(202, 83, 166)
+      background-color: rgb(50, 50, 51);
+      color: white;
+      margin-bottom: 40px;
+        padding-bottom:10px
 
     }
   }
    
   aside {
     padding: 20px;
-    background-color: rgb(192, 171, 182);
   }
   
   footer {

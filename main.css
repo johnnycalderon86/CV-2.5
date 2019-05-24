@@ -57,6 +57,45 @@ main h3 {
   text-align: center;
 }
 
+main #workex {
+  padding: 10px 10px;
+  background-color: #f5f0f0;
+}
+
+main #education {
+  background-color: #353535;
+  padding: 10px 10px;
+  color: white;
+}
+
+main #techskill {
+  padding: 10px 10px;
+  background-color: #f5f0f0;
+}
+
+main #langskill {
+  padding: 10px 10px;
+  background-color: #222122;
+  color: white;
+}
+
+main h4 {
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+main p {
+  font-size: 15px;
+  padding: 10px 10px;
+  background-color: #d6cdcd;
+}
+
+nav a:link {
+  text-decoration: none;
+}
+
 nav h3 {
   font-size: 20px;
   color: black;
@@ -67,24 +106,33 @@ nav h3 {
 }
 
 nav .tech {
-  background-color: #eeb30f;
+  background-color: #f8f7f2;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 nav .edu {
-  background-color: #7a7cec;
+  background-color: #323233;
+  color: white;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 nav .work {
-  background-color: #c9e7a1;
+  background-color: #f8f7f2;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 nav .language {
-  background-color: #ca53a6;
+  background-color: #323233;
+  color: white;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 aside {
   padding: 20px;
-  background-color: #c0abb6;
 }
 
 footer {
@@ -93,6 +141,45 @@ footer {
   text-align: center;
   font-size: 1.4em;
   background-color: #7f817a;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/*Gitgub*/
+.fa-github {
+  background: #333333;
+  color: white;
+}
+
+/*Linkedin*/
+.fa-linkedin {
+  background: #23668d;
   color: white;
 }
 
@@ -143,5 +230,17 @@ q:before, q:after {
 
 body {
   margin: 0px 50px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("./assets/img/wood.jpeg");
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */

@@ -2,7 +2,7 @@
 @import "./assets/header";
 @import "./assets/content";
 @import "./assets/_navmainfooter.scss";
-
+@import "./assets/sociallinks";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,8 +46,31 @@ q:before, q:after {
 body {
     margin: 0px 50px;
   }
+	
+	// html { 
+	// 	background: url(assets/img/world.jpg) no-repeat center center fixed; 
+	// 	-webkit-background-size: cover;
+	// 	-moz-background-size: cover;
+	// 	-o-background-size: cover;
+	// 	background-size: cover;
+	// }
   
-  
  
  
- 
+
+	// html, body {
+	// 	margin: 0;
+	// }
+	.parallax { 
+		/* The image used */
+		background-image: url("./assets/img/wood.jpeg");
+	
+		/* Set a specific height */
+		height: 500px; 
+	
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
